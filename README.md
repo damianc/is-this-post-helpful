@@ -10,3 +10,5 @@ Originally meant to show if a post or page is helpful, can be turned into any ki
 * custom set of buttons just beside standard one
 * ability to turn that into star-based rating
 * customizable colors and layout
+
+![Plugin overview](/docs/itph-overview.png)
