@@ -1,0 +1,13 @@
+.feedback-entry {
+	margin-bottom: 10px;
+}
+
+.feedback-entry .pure-counter {
+	color: #222;
+	margin-right: 4px;
+}
+
+.feedback-entry .colored-counter {
+	padding: 2px 4px;
+	margin-right: 4px;
+}

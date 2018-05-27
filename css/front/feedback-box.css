@@ -1,0 +1,47 @@
+#itph-feedback-box .answer-buttons {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: .8em;
+	line-height: 2em;
+}
+
+#itph-feedback-box.multiline-left .answer-buttons,
+#itph-feedback-box.multiline-right .answer-buttons,
+#itph-feedback-box.multiline-center .answer-buttons {
+	display: block;
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+#itph-feedback-box[class$="center"] {
+	text-align: center;
+}
+
+#itph-feedback-box[class$="right"] {
+	text-align: right;
+}
+
+#itph-feedback-box[class$="justified"] .answer-buttons {
+	float: right;
+}
+
+#itph-feedback-box.multiline-justified .answer-button {
+	display: block;
+}
+
+#itph-feedback-box.multiline-justified .guard {
+	clear: both;
+}
+
+#itph-feedback-box .answer-button {
+	cursor: pointer;
+	padding: 5px 15px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#itph-feedback-box .star-button {
+	font-size: 2em;
+	cursor: pointer;
+	transition: .5s;
+}

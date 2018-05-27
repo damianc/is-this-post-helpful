@@ -1,0 +1,135 @@
+/**
+ * ANSWER BUTTONS
+ */
+
+#itph-settings-form .preview-button {
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+#itph-settings-form #custom-answer-set-layer {
+	margin-top: 20px;
+}
+
+/**
+ * LAYOUT VARIANTS
+ */
+
+#itph-settings-form .layout-previews [type="radio"] {
+	display: none;
+}
+
+#itph-settings-form .layout-previews .layout-preview {
+	border: solid 2px #ddd;
+	display: inline-block;
+	width: 250px;
+	height: 75px;
+	background-image: url('../../images/layout.png');
+}
+
+#itph-settings-form .layout-previews [type="radio"]:checked + .layout-preview {
+	border: solid 2px #2af;
+}
+
+#itph-settings-form .layout-preview.layout-inline-left { background-position: 0 0; }
+#itph-settings-form .layout-preview.layout-inline-right { background-position: -250px 0; }
+#itph-settings-form .layout-preview.layout-inline-center { background-position: -500px 0; }
+#itph-settings-form .layout-preview.layout-inline-justified { background-position: -750px 0; }
+
+#itph-settings-form .layout-preview.layout-multiline-left { background-position: 0 -75px; }
+#itph-settings-form .layout-preview.layout-multiline-right { background-position: -250px -75px; }
+#itph-settings-form .layout-preview.layout-multiline-center { background-position: -500px -75px; }
+#itph-settings-form .layout-preview.layout-multiline-justified { background-position: -750px -75px; }
+
+#itph-settings-form #question_text_fg_color,
+#itph-settings-form #question_text_bg_color,
+#itph-settings-form #question_text_border_color {
+	margin-right: 20px;
+}
+
+/**
+ * LAYOUT STYLING
+ */
+
+#itph-settings-form #margin-line-box {
+	border: solid 1px #2af;
+	width: 500px;
+	height: 200px;
+	padding: 30px;
+	box-sizing: border-box;
+	position: relative;
+	margin: 50px;
+	font-family: Arial, sans-serif;
+}
+
+#itph-settings-form #content-line-box {
+	border: solid 4px #aaa;
+	width: 100%;
+	height:100%;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+#itph-settings-form #padding-line-box {
+	border: solid 1px #fa0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#itph-settings-form #margin-line-caption {
+	position: absolute;
+	font-size: 10px;
+	color: #2af;
+	top: 10px;
+	right: 25%;
+}
+
+#itph-settings-form #padding-line-caption {
+	position: absolute;
+	font-size: 10px;
+	color: #fa0;
+	top: 45px;
+	right: 25%;
+}
+
+#itph-settings-form #margin-line-box input {
+	width: 40px;
+	height: 20px;
+	font-size: 12px;
+	position: absolute;
+}
+
+#itph-settings-form #box-margin-top { top: -15px; left: 230px; }
+#itph-settings-form #box-margin-bottom { bottom: -15px; left: 230px; }
+#itph-settings-form #box-margin-left { top: 90px; left: -25px; }
+#itph-settings-form #box-margin-right { top: 90px; right: -25px; }
+#itph-settings-form #box-padding-top { top: 50px; left: 230px; }
+#itph-settings-form #box-padding-bottom { bottom: 50px; left: 230px; }
+#itph-settings-form #box-padding-left { left: 40px; top: 90px; }
+#itph-settings-form #box-padding-right { right: 40px; top: 90px; }
+
+#itph-settings-form #text-content {
+	font-size: 20px;
+	line-height: 70px;
+}
+
+#itph-settings-form .post_type_involved [type=checkbox] {
+	display: none;
+}
+
+#itph-settings-form .post_type_involved [type=checkbox] + span {
+	font-size: 12px;
+	color: #222;
+	background-color: #ddd;
+	padding: 4px 14px;
+	margin: 0 6px 6px 0;
+	border-radius: 3px;
+}
+
+#itph-settings-form .post_type_involved [type=checkbox]:checked + span {
+	color: #fff;
+	background-color: #2af;
+}
