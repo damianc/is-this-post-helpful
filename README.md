@@ -12,3 +12,10 @@ Originally meant to show if a post or page is helpful, can be turned into any ki
 * customizable colors and layout
 
 ![Plugin overview](/docs/itph-overview.png)
+
+### Layout variants
+
+You can change the layout of the feedback box opening _Settings_ page, in _Box component layout_ section.
+Just click one you like and save changes.
+
+![Layout variants](/docs/itph-layout-variants.png)
