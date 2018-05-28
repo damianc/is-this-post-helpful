@@ -15,7 +15,16 @@ Originally meant to show if a post or page is helpful, can be turned into any ki
 
 ### Layout variants
 
-You can change the layout of the feedback box opening _Settings_ page, in _Box component layout_ section.
+You can change the layout of the feedback box opening _Settings_ page, in _Box component layout_ section.  
 Just click one you like and save changes.
 
 ![Layout variants](/docs/itph-layout-variants.png)
+
+### Layout styling
+
+Beside setting the components distibution, feel free to set their styling, including the feedback box margins, padding or border color.  
+Just skip ahead to the settings _Feedback box styling_ part.
+
+![Layout styling](/docs/itph-layout-styling.png)
+
+
