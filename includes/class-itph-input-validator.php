@@ -22,10 +22,18 @@ class ITPH_Input_Validator {
 		$passed_conditionally = [];
 
 		if ( $input['answer_set_type'] == 'standard' ) {
-			array_push( $passed_conditionally, [
+			array_push(
+				$passed_conditionally,
 				'positive_answer', 'positive_answer_fg_color', 'positive_answer_bg_color',
 				'negative_answer', 'negative_answer_fg_color', 'negative_answer_bg_color'
-			] );
+			);
+		}
+
+		if ( $input['answer_set_type'] == 'stars' ) {
+			array_push(
+				$passed_conditionally, 
+				'empty_star_color', 'full_star_color'
+			);
 		}
 
 		$passed = array_merge( $passed_unconditionally, $passed_conditionally );
