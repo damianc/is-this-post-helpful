@@ -16,6 +16,8 @@ class ITPH_Options_Defaults {
 			'negative_answer_fg_color' => '#ffffff',
 			'negative_answer_bg_color' => '#8080ff',
 			'custom_answer_set' => '{"Yes":{"fgColor":"#ffffff","bgColor":"#7cb342"},"In a way":{"fgColor":"#ffffff","bgColor":"#cccccc"},"No":{"fgColor":"#ffffff", "bgColor":"#e53935"}}',
+			'empty_star_color' => '#000000',
+			'full_star_color' => '#ffaa00',
 			'layout' => 'inline-left',
 			'box-margin-top' => 20,
 			'box-margin-bottom' => 20,

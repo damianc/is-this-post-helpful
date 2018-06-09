@@ -1,6 +1,7 @@
 (function ($) {
 
 	ButtonPreview.init();
+	StarsPreview.init();
 	BoxPreview.init();
 
 	CustomAnswer.init();

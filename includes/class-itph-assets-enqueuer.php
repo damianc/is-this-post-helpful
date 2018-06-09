@@ -22,13 +22,21 @@ class ITPH_Assets_Enqueuer {
 
 			wp_register_script(
 				'settings-form',
-				self::$plugin_path . 'js/back/settings-form.js',
-				['jquery', 'button-preview', 'box-preview', 'custom-answer'], 101, true
+				self::$plugin_path . 'js/back/settings-form.js', [
+					'jquery', 'button-preview', 'stars-preview',
+					'box-preview', 'custom-answer'
+				], null, true
 			);
 
 			wp_register_script(
 				'button-preview',
 				self::$plugin_path . 'js/back/button-preview.js',
+				['jquery'], null, true
+			);
+
+			wp_register_script(
+				'stars-preview',
+				self::$plugin_path . 'js/back/stars-preview.js',
 				['jquery'], null, true
 			);
 

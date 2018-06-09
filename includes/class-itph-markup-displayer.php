@@ -99,9 +99,40 @@ class ITPH_Markup_Displayer {
 			'option' => 'answer_set_type',
 			'value' => $this->options['answer_set_type'],
 			'assigned_value' => 'stars',
-			'label' => 'Use star-based rating (&#9733;&#9733;&#9733;&#9733;&#9733;)'
+			'label' => 'Use star-based rating'
 		] );
 		?>
+		<p>
+			<div id="stars-preview">
+				<span class="full-star">&#9733;</span>
+				<span class="full-star">&#9733;</span>
+				<span class="full-star">&#9733;</span>
+				<span class="empty-star">&#9733;</span>
+				<span class="empty-star">&#9733;</span>
+			</div>
+			<style>
+			#itph-settings-form .full-star {
+				color: <?php echo $this->options['full_star_color']; ?>;
+			}
+			#itph-settings-form .empty-star {
+			    color: <?php echo $this->options['empty_star_color']; ?>;
+			}
+			</style>
+			<?php
+			echo ITPH_Markup_Builder::input_field( [
+				'type' => 'color',
+				'class' => 'small-text',
+				'option' => 'full_star_color',
+				'value' => $this->options['full_star_color']
+			] );
+			echo ITPH_Markup_Builder::input_field( [
+				'type' => 'color',
+				'class' => 'small-text',
+				'option' => 'empty_star_color',
+				'value' => $this->options['empty_star_color']
+			] );
+			?>
+		</p>
 		<br /><br />
 		<?php
 	}

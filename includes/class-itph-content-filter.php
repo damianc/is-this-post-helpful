@@ -63,9 +63,12 @@ class ITPH_Content_Filter {
 		$opts = self::$options;
 		$stars_markup = "
 			<style>
+			.star-button {
+				color: {$opts['empty_star_color']}
+			}
 			.star-button:hover,
 			.star-button:hover ~ .star-button {
-				color: #fa0;
+				color: {$opts['full_star_color']};
 			}
 			.answer-buttons {
 				unicode-bidi: bidi-override;

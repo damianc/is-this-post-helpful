@@ -11,6 +11,16 @@
 	margin-top: 20px;
 }
 
+#itph-settings-form #stars-preview {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+#itph-settings-form #stars-preview span {
+	font-size: 20px;
+}
+
 /**
  * LAYOUT VARIANTS
  */

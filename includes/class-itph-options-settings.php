@@ -28,9 +28,9 @@ class ITPH_Options_Settings {
 		});
 	}
 
-    /**
-     * Add sections for the plugin settings.
-     */
+	/**
+	 * Add sections for the plugin settings.
+	 */
 	private static function add_settings_sections() : void {
 		add_settings_section(
 			'itph_setting_section',
@@ -60,9 +60,9 @@ class ITPH_Options_Settings {
 		);
 	}
 
-    /**
-     * Add fields for the plugin settings sections.
-     */
+	/**
+	 * Add fields for the plugin settings sections.
+	 */
 	private static function add_settings_section_fields() : void {
 		// Setting section / question text
 		add_settings_field(
@@ -121,13 +121,13 @@ class ITPH_Options_Settings {
 		);
 	}
 
-    /**
-     * Sanitize input data from the settings page.
-     */
+	/**
+	 * Sanitize input data from the settings page.
+	 */
 	public static function sanitize_input( array $input ) : array {
 		$valid = $input;
-        $valid = ITPH_Input_Validator::empty_values( $valid );
-        $valid = ITPH_Input_Validator::negative_padding( $valid );
+		$valid = ITPH_Input_Validator::empty_values( $valid );
+		$valid = ITPH_Input_Validator::negative_padding( $valid );
 
 		return $valid;
 	}
